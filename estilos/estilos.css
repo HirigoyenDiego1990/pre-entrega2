@@ -169,6 +169,23 @@ h2 {
     border: 2px solid salmon;
 }
 
+.nosotros {
+    background-color: black;
+    height: 1000px;
+    width: 100%;
+}
+
+.nosotros p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.carrusel {
+    height: 900px;
+    width: 100%;
+}
+
 .footer {
     text-align: center;
     font-size: 20px;
