@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    height: 300px;
+    background-image: url(../imagenes/hey.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.barra {
+    background-color: white;
+    float: right;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+ul a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul a:hover {
+    color: salmon;
+}
+
+.nos1 {
+    height: 600px;
+    background-image: url(../imagenes/hermosa-mujer-joven-oficina-casa-trabajando-casa-concepto-teletrabajo.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.nos2 {
+    font-size: 30px;
+}
+
+span {
+    color: salmon;
+}
+
+.servicios {
+    height: 800px;
+    width: 100%;
+    background-color: salmon;
+    display: grid;
+    grid-template-columns: repeat(3, 20%);
+    grid-template-rows: 600px;
+    padding: 100px;
+    justify-content: space-around;
+}
+
+.servicios p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.cont1 {
+    background-color: salmon;
+    background-image: url(../imagenes/productos.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+
+.cont2 {
+    background-color: salmon;
+    background-image: url(../imagenes/pc-1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+}
+
+.cont3 {
+    background-color: salmon;
+    background-image: url(../imagenes/diseño\ web.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+
+.footer {
+    text-align: center;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.redes {
+    border: 5px solid black;
+    background-color: black;
+}
+
+.redes a {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin: 3px;
+}
+
+.redes a:hover {
+    color: salmon;
+}
+
+.subir {
+    width: 40px;
+    position: fixed;
+    right: 10px;
+    bottom: 50px;
+    color: salmon;
+    font-size: 30px;
+    text-align: center;
+    background-color: black;
+}
+
+.subir:hover {
+    color: salmon;
+}
